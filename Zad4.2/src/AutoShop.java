@@ -1,8 +1,8 @@
 public class AutoShop {
     public static void main(String[] args) {
         Sedan sedan = new Sedan(200, 20000, "black", 10);
-        Ford ford1 = new Ford(220, 4452, "blue", 2022, 10);
-        Ford ford2 = new Ford(250, 5000, "white", 2021, 5);
+        Ford ford1 = new Ford(220, 4452, "blue", 2022, 1000);
+        Ford ford2 = new Ford(250, 5000, "white", 2021, 500);
         Truck truck = new Truck(100, 500000, "silver", 5000);
 
         System.out.println(sedan.getPurchaseInfo() + " " + sedan.getSalePrice());
